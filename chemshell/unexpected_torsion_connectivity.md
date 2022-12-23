@@ -19,7 +19,8 @@ param: QC STATUS OF atom sequence 5803 10596 10597 10599 :
 param.c: Error adding AMBER FF parameter cosine dihedral
 trap
 ChemShell exiting code 1
-´´´
+```
+
 ## Solution
 
 Since this error comes from the creation of a pdb with modified coordinates, where connectivity has changed, 

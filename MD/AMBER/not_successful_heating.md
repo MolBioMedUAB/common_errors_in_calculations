@@ -8,7 +8,7 @@ When the heating is not successful in an AMBER MD simulation, either the energy 
 
 This has not a unique associated error. Until today, the following errors have been associated:
 
-- `Error: an illegal memory access was encountered launching kernel kNLSkinTest´
+- `Error: an illegal memory access was encountered launching kernel kNLSkinTest`
 - 
 
 ## Possible solutions

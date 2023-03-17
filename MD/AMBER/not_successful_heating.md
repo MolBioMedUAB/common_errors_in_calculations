@@ -2,7 +2,7 @@
 
 ## Description
 
-When the heating is not successful in an AMBER MD simulation, either the energy or temperature explode (start to increase to very high values represented as *** or NaN) or the heating stage does not start.
+When the heating is not successful in an AMBER MD simulation, either the energy or temperature explode (start to increase to very high values represented as _\*\*\*_ or _NaN_) or the heating stage does not start.
 
 ## Raised errors
 

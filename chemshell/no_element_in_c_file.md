@@ -16,7 +16,7 @@ Additionally, the new, fixed `.c` file has to be converted into a `PDB` file. Th
 ## Future errors
 It is possible that the new `.c` file doesn't contain a proper description of some bond, angles or torsions, 
 so that ChemShell gives an error if the file is used for a further calculation. To solve this, and assuming
-that the MM parameters are in AMBER format anf that AmberTools is installed, the following steps will solve the problem:
+that the MM parameters are in AMBER format and that AmberTools is installed, the following steps will solve the problem:
 
 ```
 c_to_pdb.sh coord_fixed.c initial_pdb.pdb                            ### coord_fixed.pdb is obtained as an output

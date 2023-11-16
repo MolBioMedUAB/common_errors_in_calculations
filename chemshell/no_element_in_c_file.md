@@ -20,7 +20,7 @@ that the MM parameters are in AMBER format and that AmberTools is installed, the
 
 ```
 c_to_pdb.sh coord_fixed.c initial_pdb.pdb                            ### coord_fixed.pdb is obtained as an output
-cpptraj -p coord_fixed.pdb -x coord_fixed.pdb -y coord_fixed.rst     ### coord_fixed.rst is obtained as an output
+cpptraj -p coord_fixed.pdb -y coord_fixed.pdb -x coord_fixed.rst     ### coord_fixed.rst is obtained as an output
 ambpdb -p coord_fixed.pdb -c coord_fixed.rst > coord_fixed_amber.pdb ### coord_fixed_amber.pdb is obtained as an output
 ```
 

@@ -1,5 +1,5 @@
 # README.md
-
+Summary of errors to easily check.
 
 ## No element in first column of .c file (no_element_in_c_file.md)
 The .c file is the ChemShell's format to store the position and element of each atom in the system. 
@@ -14,7 +14,7 @@ instead of printing the element of the atom, a `(null)` string is written in the
 
 This error appears when connectivity of .c file (containing the coordinates in ChemShell format) and generated from a PDB does not match the connectivity in the parameters.
 
-## Error
+### Error
 In this case, there is a torsion defined for a connection that does not appear in .c because atom 10599 has been moved too far.
 
 ```
